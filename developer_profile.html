@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+       <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+       
+         <link rel="stylesheet" type="text/css" href="./assets/css/media.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick-theme.css">
+
+
+
+
+     </head>
+<body>
+    <div class=" listingall">
+        <header class="menu_listing">
+            <div class="container">
+
+            <!------- menu_listing --------->
+            <nav class="navbar navbar-expand-md navbar-dark">
+                    <a href="#" class="navbar-brand"><img src="./assets/images/logo-02.png" alt=""></a>
+                <button class="navbar-toggler  burgermenucr burgermenu" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+              <!---------- responsiv_menu -------->
+                <div class="collapse navbar-collapse responsiv_menu" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">გამოფენა</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">პარტნიორები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ღონისძიებები</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">კონტაქტი</a>
+                    </li>
+                </ul>
+
+                <!------------ register_buttonmenu --------->
+                <div class="register_buttonmenu" >
+                    <a href="#"  class="activebuton">რეგისტრაცია</a>
+                </div>
+
+
+ 
+
+            </div>
+        
+
+
+            </nav>
+
+            
+        </div>
+            <!---------- blacksvg ---------->
+            <div class="blacksvg">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                    <path class="elementor-shape-fill" d="M0,0c0,0,0,6,0,6.7c0,18,240.2,93.6,615.2,92.6C989.8,98.5,1000,25,1000,6.7c0-0.7,0-6.7,0-6.7H0z"></path>
+                </svg>
+            </div>
+
+
+        <!------------- maps icon -------------->
+
+        <div class="creaticonmap">
+            <a href="#" class="mapfixed">
+                <img src="./assets/images/petalmapsicon.png" alt="">
+            </a>
+        </div>
+
+            <!-------------end maps icon -------------->
+        </header>
+
+        <!--
+============================================================
+                    HEADEREND
+============================================================
+--->
+       
+        <div class="person">
+        <div class="personContent">
+            <h1 class="personContentHeader">პირადი კაბინეტი
+</h1>
+            <h3 class="personname">თამარ მაშავა</h3>
+            <button class="btn profilechange"  data-toggle="modal" data-target="#profilchange">
+                <i class="far fa-edit"></i>
+                <span>პროფილის მართვა</span>
+            </button>
+            </div>
+            
+        
+
+<!-- Modal -->
+<div class="modal fade" id="profilchange" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title M_title" id="exampleModalLabel">
+          პროფილის მართვა
+          </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="M_form">
+          <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <div class="form-group">
+                    <label for="name">სახელი</label>
+                 <input type="text" class="form-control" placeholder="თამარ" id="name">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="form-group">
+                    <label for="lastname">გვარი</label>
+                 <input type="text" class="form-control" placeholder="მაშავა" id="lastname">
+                </div>
+              </div>
+            </div>
+          
+             <div class="row">
+            <div class="col-sm-12 col-lg-6">
+                <div class="form-group">
+                    <label for="idnum">პირადი ნომერი</label>
+                 <input type="text" class="form-control" placeholder="12345678910" id="idnum">
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6">
+                <div class="form-group">
+                    <label for="phone">ტელეფონის ნომერი</label>
+                 <input type="tel" class="form-control" placeholder="+995595112233" id="phone">
+                </div>
+              </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer mfContent">
+          <div class="row">
+          <div class="col-sm-12 col-lg-4">
+     
+              <button type="button" class="btn btn-primary savemy">შენახვა</button>
+  
+              
+              
+              </div>
+          </div>
+        
+      
+      </div>
+    </div>
+  </div>
+</div>    
+
+<!-- ===================== projectadd======================== -->
+
+<div class="container creatcentrum">
+
+<button type="button" class="btn projectadd projectadd2">
+    <i class="fas fa-tasks"></i>
+       პროექტის დამატება
+</button>
+
+
+<button type="button" class="btn projectadd projectadd2">
+
+    <i class="fas fa-user-shield"></i>
+  <span>მენეჯერების დამატება</span>
+
+</button>
+</div>
+
+
+        </div>
+<!--
+===============================================
+            personEnd
+==============================================
+-->
+        
+        <div class="myfav">
+        <div class="owerlay"></div>
+        <div class="myfav_shape-top" data-negative="false">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M0,0c0,0,0,6,0,6.7c0,18,240.2,93.6,615.2,92.6C989.8,98.5,1000,25,1000,6.7c0-0.7,0-6.7,0-6.7H0z"></path>
+</svg>		
+            </div>
+            <!---
+====================================
+MYFAVSVGTOPEND
+=====================================
+-->
+            
+         
+        <div class="myfavContent managepro">
+            <h1 class="myfavContent_h">ჩემი პროექტები</h1>
+
+
+            
+            <div class="container">
+             <div class="apartamentContainerConent apartamentContainerConent_favs">
+                <div class="imgContainer">
+                <img src="assets/images/slide-1.jpg" class="apartamentContainerConent_img">
+                    <a href="" class="btn imgB">გაიგე მეტი</a>
+                </div>
+              <div class="detailsContainer">
+               <h1>ბინა N255</h1>
+                  <h3>55 კვ.მ / 125 000 ₾</h3>
+                  <button class="btn LoanC">სესხის კალკულატორი</button>
+                </div>
+            <div class="addFav">
+
+
+                <button type="button" class="btn ">
+                    <i class="fas fa-plus"></i>
+                    <span>პროექტის რედაქტირება</span>
+                </button>
+                
+
+                    <button type="button" class="btn">
+
+                        <i class="far fa-building"></i>
+                    <span>ბინის დამატება</span>
+
+                </button>
+
+
+                
+            </div>
+            </div>
+        </div>
+                    
+        <div class="container">
+            <div class="apartamentContainerConent apartamentContainerConent_favs">
+               <div class="imgContainer">
+               <img src="assets/images/slide-1.jpg" class="apartamentContainerConent_img">
+                   <a href="" class="btn imgB">გაიგე მეტი</a>
+               </div>
+             <div class="detailsContainer">
+              <h1>ბინა N255</h1>
+                 <h3>55 კვ.მ / 125 000 ₾</h3>
+                 <button type="button" class="btn LoanC">სესხის კალკულატორი</button>
+               </div>
+               <div class="addFav">
+
+                <button type="button" class="btn ">
+                    <i class="fas fa-plus"></i>
+                    <span>პროექტის რედაქტირება</span>
+                </button>
+                
+
+                    <button type="button" class="btn">
+
+                        <i class="far fa-building"></i>
+                    <span>ბინის დამატება</span>
+
+                </button>
+                
+            </div>
+           </div>
+       </div>
+            
+        </div>
+        </div>
+        
+        
+        <!---
+===================================================
+            MYFAVEND
+==================================================
+-->
+        
+        <div class="mycontact mycont2">
+        
+           <div class="mycontactsvg posrelativ">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+	<path class="elementor-shape-fill" d="M615.2,96.7C240.2,97.8,0,18.9,0,0v100h1000V0C1000,19.2,989.8,96,615.2,96.7z"></path>
+</svg>
+        </div>
+
+        
+            <!-------===============================myContactEnd==============================---->
+           
+
+
+                                        <!------ accept ------>
+                                        <div class="yourflat">
+                                            <h2>ჩემი მენეჯერები</h2>
+                                        </div>
+                    
+                                        <!----- box_consultation ---->
+                                        <div class="box_consultation">
+                                              
+                    
+                                            <!---- cardnormal ---->
+                                            <div class="card cardnormal">  
+                                                <img src="https://evakuatori.com.ge/wp-content/uploads/2020/12/Testimonial-3-1.png" class="card-img-top" alt="">
+                                                    <!-- chatcontacts -->
+                                                    <div class="card-body chatcontacts">
+                                                        <h3>სახელი გვარი</h3>
+                                                        <span>გაყიდვის მენეჯერი</span>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                        <li>
+                                                        <a href="">დაგვირეკეთ</a>
+                                                        </li>
+                                                    </ul>
+                            
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-video"></i>
+                                                        <li>
+                                                            <a href="">ვიდეო ზარი</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-comments chat"></i>
+                                                        <li>
+                                                            <a href="">ონლაინ ჩატი</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-address-card pay"></i>
+                                                        <li>
+                                                            <a href="">კონტაქტების გაცვლა</a>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <ul>
+                                                        <i class="fas fa-tasks pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter" href="">თქვენი პროექტები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+
+                                                    <ul>
+                                                        <i class="fas fa-phone-volume pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter1" href="">თქვენი ზარები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- Modal -->
+                                                        <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი პროექტები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body projectcall">
+                                                                    <ul>
+                                                                        <li>პროექტი 1</li>
+                                                                        <li>პროექტი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="modal fade " id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი ზარები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body projectcall">
+                                                                    <ul>
+                                                                        <li>ზარი 1</li>
+                                                                        <li>ზარი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer ">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+
+
+                                                                                                   <!---- cardnormal ---->
+                                            <div class="card cardnormal">  
+                                                <img src="https://evakuatori.com.ge/wp-content/uploads/2020/12/Testimonial-3-1.png" class="card-img-top" alt="">
+                                                    <!-- chatcontacts -->
+                                                    <div class="card-body chatcontacts">
+                                                        <h3>სახელი გვარი</h3>
+                                                        <span>გაყიდვის მენეჯერი</span>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                        <li>
+                                                        <a href="">დაგვირეკეთ</a>
+                                                        </li>
+                                                    </ul>
+                            
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-video"></i>
+                                                        <li>
+                                                            <a href="">ვიდეო ზარი</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-comments chat"></i>
+                                                        <li>
+                                                            <a href="">ონლაინ ჩატი</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-address-card pay"></i>
+                                                        <li>
+                                                            <a href="">კონტაქტების გაცვლა</a>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <ul>
+                                                        <i class="fas fa-tasks pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter" href="">თქვენი პროექტები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+
+                                                    <ul>
+                                                        <i class="fas fa-phone-volume pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter1" href="">თქვენი ზარები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- Modal -->
+                                                        <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი პროექტები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <ul>
+                                                                        <li>პროექტი 1</li>
+                                                                        <li>პროექტი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer projectcall">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="modal fade " id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი ზარები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body projectcall">
+                                                                    <ul>
+                                                                        <li>ზარი 1</li>
+                                                                        <li>ზარი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+
+
+
+
+
+                                                                                                   <!---- cardnormal ---->
+                                            <div class="card cardnormal">  
+                                                <img src="https://evakuatori.com.ge/wp-content/uploads/2020/12/Testimonial-3-1.png" class="card-img-top" alt="">
+                                                    <!-- chatcontacts -->
+                                                    <div class="card-body chatcontacts">
+                                                        <h3>სახელი გვარი</h3>
+                                                        <span>გაყიდვის მენეჯერი</span>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-phone-alt"></i>
+                                                        <li>
+                                                        <a href="">დაგვირეკეთ</a>
+                                                        </li>
+                                                    </ul>
+                            
+                                                    <ul>
+                                                        <i aria-hidden="true" class="fas fa-video"></i>
+                                                        <li>
+                                                            <a href="">ვიდეო ზარი</a>
+                                                        </li>
+                                                    </ul>
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-comments chat"></i>
+                                                        <li>
+                                                            <a href="">ონლაინ ჩატი</a>
+                                                        </li>
+                                                    </ul>
+                                                    
+                                                    <ul>
+                                                        <i aria-hidden="true" class="far fa-address-card pay"></i>
+                                                        <li>
+                                                            <a href="">კონტაქტების გაცვლა</a>
+                                                        </li>
+                                                    </ul>
+
+
+                                                    <ul>
+                                                        <i class="fas fa-tasks pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter" href="">თქვენი პროექტები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+
+                                                    <ul>
+                                                        <i class="fas fa-phone-volume pay"></i>
+
+                                                        <li>
+                                                            <a class="btn bordernone" data-toggle="modal" data-target="#exampleModalCenter1" href="">თქვენი ზარები</a>
+                                                        </li>
+                                                         
+       
+                                                          
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <!-- Modal -->
+                                                        <div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი პროექტები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body projectcall">
+                                                                    <ul>
+                                                                        <li>პროექტი 1</li>
+                                                                        <li>პროექტი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="modal fade " id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                <h5 class="modal-title fontfamilypro" id="exampleModalLongTitle">თქვენი ზარები</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                                </div>
+                                                                <div class="modal-body projectcall">
+                                                                    <ul>
+                                                                        <li>ზარი 1</li>
+                                                                        <li>ზარი 2</li>
+                                                                    </ul>
+                                                                    
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                    
+                    
+                                            
+            
+        </div>
+        
+  
+        
+        
+        <footer class="footer">
+          <div class="container">
+          <div class="footerSvg">
+                  <svg data-brackets-id="11906" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                  <path data-brackets-id="11907" class="elementor-shape-fill" d="M0,0c0,0,0,6,0,6.7c0,18,240.2,93.6,615.2,92.6C989.8,98.5,1000,25,1000,6.7c0-0.7,0-6.7,0-6.7H0z"></path>
+                  </svg>
+                  </div>
+      <!--
+      ============================================================
+               FOOTERSVGEND
+      ============================================================
+      --->
+      
+      
+                      <div class="footer_top">
+                      <div class="footer_top_content">
+                      <div class="footer_top_content_left">
+                      <div class="logo_footer"><img src="./assets/images/logo-02.png">
+                      </div>
+                          <div class="footer_socials">
+                          <a href=""> <i class="fab fa-twitter"></i></a>
+                          <a href=""> <i class="fab fa-facebook-f"></i></a>
+                          <a href=""> <i class="fab fa-dribbble"></i></a>
+                          <a href=""> <i class="fab fa-youtube"></i></a>
+                          <a href=""> <i class="fab fa-pinterest"></i></a>
+                          <a href=""> <i class="fab fa-medium"></i></a>
+                          </div>
+      
+      
+      
+                      </div>
+      
+      
+      
+      
+      
+                      <div class="footer_top_content_right">
+                      <ul class="footer_top_content_right_left">
+                          <h3>Get Started</h3>
+                      <li><a href="">Tutorials</a></li>
+                      <li><a href="">Resources</a></li>
+                      <li><a href="">Guides</a></li>
+                      <li><a href="">Examples</a></li>
+                      <li><a href="">Docs</a></li>
+                      </ul>
+                      <ul class="footer_top_content_right_center">
+                          <h3>about</h3>
+                      <li><a href="">Stories</a></li>
+                      <li><a href="">Community</a></li>
+                      <li><a href="">Blog</a></li>
+                      <li><a href="">Careers</a></li>
+                      <li><a href="">Brand Assets</a></li>
+                      </ul>
+                      <ul class="footer_top_content_right_right">
+                          <h3>Downloads</h3>
+                      <li><a href="">Flex UI Kit</a></li>
+                      <li><a href="">Modern UI Kit</a></li>
+                      <li><a href="">Framer UI Kit</a></li>
+                      <li><a href="">Gradients UI Kit</a></li>
+                      <li><a href="">Black & White UI Kit</a></li>
+                      </ul>
+                      </div>
+                      </div>
+                      </div>
+      
+          </div>
+                      <!--
+                      ============================================================
+                              FOOTERTOPEND
+                      ============================================================
+                      --->
+      
+                      <div class="footer_bottom">
+      
+                      <div class="footer_bottom_left">
+                      <span class="footer_bottom_left_text">Area Expo 2021 © All rights reserved</span>
+      
+                      </div>
+                      <div class="footer_bottom_right">
+                      <span class="footer_bottom_right_text">Developed by Studio goes here</span>
+      
+                      </div>
+      
+      
+      
+      
+                  </div>
+              </div>
+           
+        <!--
+      ============================================================
+               FOOTERBOOTOMEND
+      ============================================================
+      --->
+      
+      </footer>
+
+
+
+    </div>
+
+
+
+     
+
+    <script src="assets/js/jquery.js"></script>
+
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
